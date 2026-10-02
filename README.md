@@ -23,6 +23,13 @@ Navigate to the backend directory, activate the virtual environment, and start t
 cd backend
 .\venv\Scripts\activate
 uvicorn main:app --reload --port 8000
+```
+
+2. Run the Frontend
+Open a new terminal, navigate to the frontend directory, and start the Vite development server:
+
+```powershell
 cd frontend
 npm install
 npm run dev
+```
