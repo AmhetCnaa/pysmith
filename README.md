@@ -25,7 +25,7 @@ cd backend
 uvicorn main:app --reload --port 8000
 ```
 
-2. Run the Frontend
+### 2. Run the Frontend
 Open a new terminal, navigate to the frontend directory, and start the Vite development server:
 
 ```powershell
